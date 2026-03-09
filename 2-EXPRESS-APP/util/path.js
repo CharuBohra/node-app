@@ -1,0 +1,2 @@
+const path = require('path'); //The 'path' module provides utilities for working with file and directory paths in Node.js. It allows you to manipulate file paths, resolve relative paths, and work with file extensions in a platform-independent way.
+module.exports = path.dirname(require.main.filename); //Returns the directory name of the current module's main file. It is used to get the absolute path of the main module, which can be useful for resolving file paths in a Node.js application.
